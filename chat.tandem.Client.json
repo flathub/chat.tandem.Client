@@ -58,9 +58,9 @@
             "build-commands": [
                 "install apply_extra /app/bin",
                 "install tandem-bin.sh /app/bin/tandem",
-                "install -Dm644 chat.tandem.Client.appdata.xml /app/share/appdata/chat.tandem.Client.appdata.xml",
-                "install -Dm644 chat.tandem.Client.png /app/share/icons/hicolor/512x512/apps/chat.tandem.Client.png",
-                "install -Dm644 chat.tandem.Client.desktop /app/share/applications/chat.tandem.Client.desktop"
+                "install -Dm644 chat.tandem.Client.metainfo.xml -t /app/share/metainfo",
+                "install -Dm644 chat.tandem.Client.png -t /app/share/icons/hicolor/512x512/apps",
+                "install -Dm644 chat.tandem.Client.desktop -t /app/share/applications"
             ],
             "sources": [
                 {
@@ -80,7 +80,7 @@
                 },
                 {
                     "type": "file",
-                    "path": "chat.tandem.Client.appdata.xml"
+                    "path": "chat.tandem.Client.metainfo.xml"
                 },
                 {
                     "type": "file",
