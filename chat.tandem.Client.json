@@ -96,9 +96,9 @@
                     "only-arches": [
                         "x86_64"
                     ],
-                    "url": "https://api.snapcraft.io/api/v1/snaps/download/60TBdyGY1CtMasyg13mtwzXfZwu0XDLw_24.snap",
-                    "sha256": "ecb04764fd8bb56a9477f5d2ae5b918ecd81765a7d694dc5d8e048569e58d092",
-                    "size": 179105792,
+                    "url": "https://api.snapcraft.io/api/v1/snaps/download/60TBdyGY1CtMasyg13mtwzXfZwu0XDLw_25.snap",
+                    "sha256": "a0d7b3209e59805349d9b56eb38a3c339976be5ea241f5b94828a349dd29316b",
+                    "size": 142893056,
                     "x-checker-data": {
                         "type": "snapcraft",
                         "name": "tandem",
