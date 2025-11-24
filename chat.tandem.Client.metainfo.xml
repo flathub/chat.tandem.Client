@@ -52,4 +52,9 @@
   <custom>
     <value key="Purism::form_factor">workstation</value>
   </custom>
+  <keywords>
+    <keyword>remote teamwork</keyword>
+    <keyword>virtual office</keyword>
+    <keyword>collaboration tool</keyword>
+  </keywords>
 </component>
