@@ -1,16 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<component type="desktop">
+<component type="desktop-application">
   <id>chat.tandem.Client</id>
   <provides><id>chat.tandem.Client.desktop</id></provides>
+  <replaces><id>chat.tandem.Client.desktop</id></replaces>
   <launchable type="desktop-id">chat.tandem.Client.desktop</launchable>
   <name>Tandem</name>
-  <developer_name>Tandem Communications Inc.</developer_name>
+  <developer id="chat.tandem"><name>Tandem Communications Inc.</name></developer>
   <summary>Virtual office for remote teams</summary>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>LicenseRef-proprietary</project_license>
   <url type="homepage">https://tandem.chat</url>
-  <url type="help">https://intercom.help/tandem_help</url>
   <description>
+    <p>**NOTE: This wrapper is not verified by, affiliated with, or supported by Tandem Communications Inc.**</p>
     <p>Connect effortlessly with your distributed team. See who’s around, talk, and collaborate in one click.</p>
     <p>Quick Collaboration</p>
     <p>See which work apps your team is working in, and join them with a click. Shared cursors = better screen-sharing.</p>
@@ -18,7 +19,6 @@
     <p>Time zones got you working late? See who is also in work mode and get quick feedback on your work.</p>
     <p>Co-working</p>
     <p>Hang out in a minimal voice/video call to feel connected — like you're working at the same table.</p>
-    <p>NOTE: This package is not verified by, affiliated with, or supported by Tandem Communications Inc.</p>
   </description>
   <screenshots>
     <screenshot type="default">
@@ -27,12 +27,8 @@
     </screenshot>
   </screenshots>
   <releases>
-    <release version="2.2.1622" date="2024-11-19">
-      <description></description>
-    </release>
-    <release version="2.2.1622" date="2024-11-15">
-      <description/>
-    </release>
+    <release version="2.2.1622" date="2024-11-19"/>
+    <release version="2.2.1622" date="2024-11-15"/>
     <release version="2.2.307" date="2022-03-15"/>
     <release version="2.1.1207" date="2021-12-07"/>
     <release version="2.1.1206" date="2021-12-06"/>
